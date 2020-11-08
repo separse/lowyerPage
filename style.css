@@ -77,7 +77,7 @@ p, figure {
 /*------------------------
     2. Header
 ------------------------*/
-.bodyHead .logoHead {
+.bodyHead, .logoHead {
 	width: 100%;
 	height: auto;
 	float: right;
@@ -87,7 +87,7 @@ p, figure {
 	background-color: #ffffff;
 }
 
-body img {
-	width: 40%;
+.logoHead img {
 	margin: 1em 0;
+	width: 40%;
 }
