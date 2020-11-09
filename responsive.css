@@ -1,6 +1,48 @@
 @media screen and (max-width: 1400px) {}
-@media screen and (max-width: 1200px) {}
-@media screen and (max-width: 1024px) {}
-@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 1200px) {
+
+  .headerMenu ul li {
+    margin: 2.1em 0 0 .4em;
+  }
+
+  .headerSocialMedia ul li a i {
+    height: 22px;
+    width: 22px;
+    font-size: 1em;
+    line-height: 22px;
+  }
+
+  .headerLogo h2 {
+    margin: 2.2em 1em 0 0;
+  }
+
+  .mainContent h3 {
+    margin: 0 0 1em 0;
+  }
+
+  .contentButton {
+    margin-top: 0em;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .mainPhoto img {
+    padding: 7em 0;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .mainPhoto img {
+    padding: 0;
+  }
+
+}
+
 @media screen and (max-width: 568px) {}
+
 @media screen and (max-width: 320px) {}

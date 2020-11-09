@@ -77,17 +77,138 @@ p, figure {
 /*------------------------
     2. Header
 ------------------------*/
-.bodyHead, .logoHead {
+.bodyHeader, .headerLogo, .headerMenu, .headerSocialMedia {
 	width: 100%;
 	height: auto;
 	float: right;
 }
 
-.bodyHead {
+.bodyHeader {
 	background-color: #ffffff;
 }
 
-.logoHead img {
+.headerLogo img {
 	margin: 1em 0;
-	width: 40%;
+	width: 30%;
+	float: right;
+}
+
+.headerLogo h2 {
+	font-family: iranyekanbold;
+	font-size: medium;
+	float: right;
+	margin: 2.6em 1em 0 0;
+}
+
+.headerMenu {
+	text-align: center;
+}
+
+.headerMenu ul li {
+	display: inline-block;
+	margin: 2.6em 0 0 1em;
+}
+
+.headerMenu ul li a {
+	display: block;
+	padding: .5em 1.5em .7em 1.5em;
+}
+
+.headerMenu ul li a:hover {
+	border-bottom: solid .5em #292929;
+	color: #000000;
+	background-color: #e3e3e3;
+}
+
+.headerSocialMedia ul li {
+	float: left;
+	margin: 2.5em 0 0 .3em;
+	text-align: center;
+}
+
+.headerSocialMedia ul li a {
+	display: block;
+	background-color: #e3e3e3;
+}
+
+.headerSocialMedia ul li a i {
+	height: 25px;
+	width: 25px;
+	font-size: 1.2em;
+	line-height: 25px;
+}
+
+.headerSocialMedia ul li a i:hover {
+	color: white;
+}
+
+#telegramLogo:hover {
+	background-color: #0088cc;
+}
+
+#instagramLogo:hover {
+	background-color: #E1306C;
+}
+
+#twitterLogo:hover {
+	background-color: #1DA1F2;
+}
+
+#whatsappLogo:hover {
+	background-color: #4AC959;
+}
+
+#facebookLogo:hover {
+	background-color: #4267B2;
+}
+/*------------------------
+    3. Main
+------------------------*/
+.bodyMain, .mainPhoto, .mainPhoto img, .mainContent, .mainContent p, .contentButton {
+	width: 100%;
+	height: auto;
+	float: right;
+}
+
+.bodyMain {
+	margin: 1em 0;
+	background-color: white;
+}
+
+.mainPhoto, .mainContent {
+	padding: 2em 0;
+}
+
+.mainContent h3 {
+	color: rgb(118, 118, 118);
+	margin: 6em 0 1em 0;
+	font-size: .9em;
+}
+
+.mainContent h1 {
+	margin-bottom: 1em;
+	font-family: iranyekanbold;
+	font-size: xx-large;
+}
+
+.mainContent p {
+	text-align: justify;
+	color: rgb(96, 96, 96);
+	font-family: iransans;
+	line-height: 2.2em;
+}
+
+.contentButton {
+	margin-top: 3em;
+	text-align: left;
+}
+
+.contentButton a {
+	border: solid 2px #30a3e1;
+	padding: .6em 1.2em .8em;
+}
+
+.contentButton a:hover {
+	background-color: #30a3e1;
+	color: white;
 }
