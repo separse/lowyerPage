@@ -115,7 +115,7 @@ p, figure {
 }
 
 .headerMenu ul li a:hover {
-	border-bottom: solid .5em #292929;
+	border-bottom: solid .5em #a6120d;
 	color: #000000;
 	background-color: #e3e3e3;
 }
@@ -204,11 +204,39 @@ p, figure {
 }
 
 .contentButton a {
-	border: solid 2px #30a3e1;
+	border: solid 2px #a6120d;
 	padding: .6em 1.2em .8em;
 }
 
 .contentButton a:hover {
-	background-color: #30a3e1;
+	background-color:#a6120d;
 	color: white;
+}
+
+.whatDo {
+	font-family: iranyekanbold;
+	font-size: xx-large;
+	margin-bottom: 1em;
+	border-bottom: solid#a6120d  2px;
+	float: right;
+	padding-bottom: .3em;
+}
+
+.whatDoLogo {
+	text-align: center;
+	padding: 0;
+}
+
+.whatDoLogo i {
+	font-size: 8em;
+	color:#a6120d;
+}
+
+.whatDoDescription {
+	margin-bottom: 1em;
+	line-height: 1.5em;
+	font-family: iransans;
+}
+.whatDoDescription h3 {
+	line-height: 2em;
 }
