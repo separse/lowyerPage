@@ -75,6 +75,10 @@
   .mainPhoto img {
     margin-top: 0;
   }
+
+  .whatDoLogo, .whatDoDescription {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 320px) {

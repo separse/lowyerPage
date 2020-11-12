@@ -1,10 +1,14 @@
 /*
     1. All
-    2. Header
+		2. Header
+		3.Body
+		4.Footer
 */
+
 /*------------------------
     1. All
 ------------------------*/
+
 @font-face {
 	font-family: iransans;
 	font-style: normal;
@@ -74,9 +78,27 @@ p, figure {
 :focus, button:focus {
 	outline: 0;
 }
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+	background: #e3e3e3; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #a6120d;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #a6120d;
+}
+
 /*------------------------
     2. Header
 ------------------------*/
+
 .bodyHeader, .headerLogo, .headerMenu, .headerSocialMedia {
 	width: 100%;
 	height: auto;
@@ -84,7 +106,8 @@ p, figure {
 }
 
 .bodyHeader {
-	background-color: #ffffff;
+	background-color: white;
+	margin-bottom: 1em;
 }
 
 .headerLogo img {
@@ -161,18 +184,29 @@ p, figure {
 #facebookLogo:hover {
 	background-color: #4267B2;
 }
+
 /*------------------------
     3. Main
 ------------------------*/
-.bodyMain, .mainPhoto, .mainPhoto img, .mainContent, .mainContent p, .contentButton, .bodyWhatDo, .whatDoTitle, .whatDoBox, .whatDoDescription, .bodyBlog, .blogDate, .blogTitle, .blogDescription, .blogBox, .blogPhoto {
+
+.bodyPart, .mainPhoto, .mainPhoto img, .mainContent, .mainContent p, .contentButton, .odyPartTitle, .whatDoBox, .whatDoDescription, .blogDate, .blogTitle, .blogDescription, .blogBox, .blogPhoto, .contactBox {
 	width: 100%;
 	height: auto;
 	float: right;
 }
 
-.bodyMain {
-	margin: 1em 0;
-	background-color: rgb(255, 255, 255)
+.bodyPart {
+	margin-bottom: 1em;
+	background-color: white;
+}
+
+.bodyPartTitle h3 {
+	font-family: iranyekanbold;
+	font-size: medium;
+	margin: 2em 0;
+	padding-bottom: .5em;
+	border-bottom: solid 2px #a6120d;
+	float: right;
 }
 
 .mainPhoto, .mainContent {
@@ -213,22 +247,6 @@ p, figure {
 	color: white;
 }
 
-.bodyWhatDo {
-	background-color: rgb(255, 255, 255);
-}
-
-.whatDoTitle {
-	margin: 2em 0;
-}
-
-.whatDoTitle h3 {
-	border-bottom: solid 2px #a6120d;
-	font-family: iranyekanbold;
-	padding-bottom: .8em;
-	float: right;
-	font-size: medium;
-}
-
 .whatDoBox {
 	border: #a6120d4c solid 1px;
 	padding: .8em;
@@ -260,11 +278,6 @@ p, figure {
 	font-size: small;
 	margin: 2em 0;
 	line-height: 2em;
-}
-
-.bodyBlog {
-	background-color: rgb(255, 255, 255);
-	margin: 1em 0;
 }
 
 .blogBox {
@@ -321,4 +334,91 @@ p, figure {
 	padding: 1em;
 	line-height: 2;
 	font-family: iransans;
+}
+
+.contactBox {
+	border: #a6120da1 solid 2px;
+	text-align: center;
+	transition: .3s;
+	margin: 1em 0 2em 0;
+	padding: 1em 0;
+}
+
+.contactBox:hover {	
+	box-shadow: .3em .3em .7em rgba(0,0,0,.2)
+	/* -moz-box-shadow: 1px 1px 7px rgba(0,0,0,.2);
+	-webkit-box-shadow: 1px 1px 7px rgba(0,0,0,.2);
+	-ms-box-shadow: 1px 1px 7px rgba(0,0,0,.2);
+	-o-box-shadow: 1px 1px 7px rgba(0,0,0,.2); */
+}
+
+.contactBox i {
+	font-size: 3em;
+	color: #a6120d;
+	margin: .5em 0;
+}
+.contactBox h4 {
+	font-family: iranyekanbold;
+	margin: .5em 0;
+}
+
+.bodyEnd {
+	margin-bottom: 0;
+}
+
+/*------------------------
+    4. Footer
+------------------------*/
+
+.bodyFooter, .footerTitle, .footerContent, .footerContent, .designer {
+	width: 100%;
+	height: auto;
+	float: right;
+}
+
+.bodyFooter {
+	background-color: #e3e3e3;
+	border-top: 1px solid #a6120da1;
+}
+
+ .footerTitle h4 {
+	font-family: iranyekanbold;
+	font-size: medium;
+	margin: 2em 0;
+	padding-bottom: .5em;
+	border-bottom: solid 2px #a6120d;
+	float: right;
+}
+
+.footerContent ul li {
+	margin-bottom: 1.5em;
+	width: 100%;
+	float: right;
+}
+
+.footerContent ul li h3 {
+	font-size: small;
+	line-height: 2em;
+}
+
+.footerContent ul li h3 i {
+	margin: 7px 0 0 4px;
+	float: right;
+}
+
+.footerPhoto {
+	text-align: center;
+}
+
+.footerPhotoContent {
+	margin: 2em;
+	text-align: justify;
+}
+
+.designer {
+	background-color: #a6120d7d;
+	font-family: iransans;
+	font-size: small;
+	padding: 1em;
+	text-align: center;
 }
