@@ -185,6 +185,36 @@ p, figure {
 	background-color: #4267B2;
 }
 
+#stickyNavbar {
+	background-color: rgba(255,255,255,0.95);
+	position: fixed;
+	top: -120px;
+	width: 100%;
+	display:block;
+	transition: top 0.3s;
+	z-index: 99999;
+	box-shadow: 5px 2px 9px rgba(0,0,0,0.5);
+	/* -moz-box-shadow: 5px 2px 9px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 5px 2px 9px rgba(0,0,0,0.5);
+	-ms-box-shadow: 5px 2px 9px rgba(0,0,0,0.5);
+	-o-box-shadow: 5px 2px 9px rgba(0,0,0,0.5);	 */
+	}
+
+	.stickyLogo img {
+		width: 70%;
+		height: auto;
+		padding: 1em 0;
+	}
+
+	#stickyNavbar .headerMenu ul li {
+		float: right;
+		margin: 1.3em 0 0 1em;
+	}
+
+	#stickyNavbar .headerSocialMedia ul li {
+		margin-top: 1.7em;
+	}
+
 /*------------------------
     3. Main
 ------------------------*/
