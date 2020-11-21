@@ -4,6 +4,7 @@
 		3. Body
 		4. Footer
 		5. Single
+		6. Sidebar
 */
 
 /*------------------------
@@ -218,6 +219,35 @@ p, figure {
 		margin-top: 1.7em;
 	}
 
+	#back2Top {
+		display: none;
+	}
+	
+	#back2Top a {
+		width: 20;
+		height: 20;
+		float: right;
+		text-align: center;
+		line-height: 20px;
+		font-size: 1.5em;
+		color: #000;
+	}  
+
+	#back2Top a:hover {
+		color: #a6120d;
+	}  
+	
+	.fix-btn {
+		width: auto;
+		height: auto;
+		position: fixed;
+		z-index: 9999;
+		right: 3.2em;
+		bottom: 3.2em;
+		background-color: white;
+		padding: .3em;
+	}
+	
 /*------------------------
     3. Main
 ------------------------*/
@@ -569,4 +599,69 @@ p, figure {
 .singleTag a:hover {
 	background-color: #a6120d;
 	color: white;
+}
+
+.singleContent h1, .singleContent h2, .singleContent h3, .singleContent h4, .singleContent h5, .singleContent h6 {
+	font-size: 1.3em;
+	font-family: iranyekanbold;
+	width: 100%;
+	float: right;
+	margin: .5em 0;
+
+}
+
+/*------------------------
+    1. All
+------------------------*/
+
+.sidebar, .sidebarLinks, .sidebarBanner, .sidebarTitle, .singleContent {
+	width: 100%;
+	height: auto;
+	float: right;
+}
+
+.sidebarLinks {
+	margin: 2em 0;
+	background-color: rgb(255, 255, 255);
+	padding: 1em;
+	border-radius: 5px;
+}
+
+.sidebarTitle {
+	border-bottom: solid 2px #a6120d;
+	padding: .2em 0 1.1em;
+}
+
+.sidebarTitle h3 {
+	font-size: 1.1em;
+	font-family: iranyekanbold;
+}
+
+.sidebarContent {
+	padding: 1em 0;
+}
+
+.sidebarContent ul li {
+	margin: .5em 0;
+	width: 100%;
+	float: right;
+	line-height: 1.7;
+}
+
+.sidebarContent ul li a i {
+	margin: 7px 0 0 4px;
+	float: right;
+}
+
+.sidebarContent ul li a:hover {
+	color: #a6120d;
+}
+
+.sidebarBanner {
+	background-color: yellow;
+	float: right;
+}
+
+.sidebarBanner a img {
+	width: 100%;
 }

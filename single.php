@@ -1,7 +1,13 @@
 <?php get_header(); ?>
 
 <div class="singleHeader">
+  <style>
+    .singleHeader {
+      background-image: url("<?php the_post_thumbnail_url(); ?>");
+    }
+  </style>
 </div>
+
 <div class="singleBody">
   <div class="container">
     <div class="row">
@@ -38,7 +44,7 @@
         </div>
       </div>
       <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-      
+              <?php get_sidebar(); ?>
       </div>
     </div>
   </div>
@@ -46,8 +52,3 @@
 
 <?php get_footer(); ?>
 
-<style>
-  .singleHeader {
-    background-image: url("<?php the_post_thumbnail_url(); ?>");
-  }
-</style>
