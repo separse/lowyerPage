@@ -6,6 +6,7 @@
 		5. Single
 		6. Sidebar
 		7. Category
+		8. Contactus
 */
 
 /*------------------------
@@ -117,7 +118,6 @@ p, figure {
 
 .bodyHeader {
 	background-color: white;
-	margin-bottom: 1em;
 	display: flex;
 }
 
@@ -267,7 +267,7 @@ p, figure {
 }
 
 .bodyPart {
-	margin-bottom: 1em;
+	margin-top: 1em;
 	background-color: white;
 }
 
@@ -641,7 +641,7 @@ p, figure {
 }
 
 .sidebarTitle h3 {
-	font-size: 1.1em;
+	font-size: 1.2em;
 	font-family: iranyekanbold;
 }
 
@@ -740,3 +740,47 @@ p, figure {
 	background-color:#a6120d;
 	color: white;
 }
+
+/*------------------------
+    8. Contactus
+------------------------*/
+
+.contactMap, .contactInfo, .contactTitle, .contactContent  {
+	width: 100%;
+	height: auto;
+	float: right;
+}
+
+.contactInfo {
+	background-color: white;
+	margin: 2em 0;
+	padding: 1em;
+	border-radius: 5px;
+}
+
+.contactTitle {
+	border-bottom: solid 2px #a6120d;
+	padding: .2em 0 1.1em;
+}
+
+.contactTitle h1 {
+	font-size: 1.2em;
+	font-family: iranyekanbold;
+}
+
+.contactContent {
+	padding-top: 1em;
+}
+
+.contactContent ul li {
+	line-height: 2;
+}
+
+.contactContent ul li i {
+	color: #a6120d;
+	/* height: 25px;
+	width: 25px;
+	text-align: center; */
+	font-size: 1.2em;
+}
+
