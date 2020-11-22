@@ -5,6 +5,7 @@
 		4. Footer
 		5. Single
 		6. Sidebar
+		7. Category
 */
 
 /*------------------------
@@ -97,6 +98,13 @@ p, figure {
 	background: #a6120d;
 }
 
+.divShadow {
+	box-shadow: 1px 1px 7px rgba(0,0,0,0.2);
+  /* -moz-box-shadow: 5px 2px 9px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 5px 2px 9px rgba(0,0,0,0.2);
+	-ms-box-shadow: 5px 2px 9px rgba(0,0,0,0.2);
+	-o-box-shadow: 5px 2px 9px rgba(0,0,0,0.2);	  */
+}
 /*------------------------
     2. Header
 ------------------------*/
@@ -444,7 +452,7 @@ p, figure {
 	border-top: 1px solid #a6120da1;
 }
 
- .footerTitle h4 {
+.footerTitle h4 {
 	font-family: iranyekanbold;
 	font-size: medium;
 	margin: 2em 0;
@@ -664,4 +672,71 @@ p, figure {
 
 .sidebarBanner a img {
 	width: 100%;
+}
+
+/*------------------------
+    7. Category
+------------------------*/
+
+.category, .categoryTitle, .categoryItem, .categoryPhoto, .categoryItemTitle, .categorytButton {
+	width: 100%;
+	height: auto;
+	float: right;
+}
+
+.category {	
+	margin: 1em 0;
+	border-radius: 5px;
+	padding: 1em;
+}
+
+.categoryTitle {
+	border-bottom: solid 2px #a6120d;
+	padding: .2em 0 1.3em;
+}
+
+.categoryTitle h1 {
+	font-size: 2em;
+	font-family: iranyekanbold;
+}
+
+.categoryTitle h1 a:hover {
+	color: #a6120d;
+}
+
+.categoryItem {
+	margin-top: 2em;
+	border: #a6120d30 solid 1px;
+	background-color: white;
+}
+
+.categoryPhoto img {
+	width: 100%;
+	height: auto;
+}
+
+.categoryItemTitle h3 {
+	font-family: iranyekanbold;
+	padding: 1em;
+	font-size: 1.2em;
+}
+
+.categoryItemTitle h3:hover {
+	color: #a6120d;
+}
+
+.categorytButton {
+	text-align: left;
+	margin-bottom: .5em;
+}
+
+.categorytButton a {
+	border: solid 2px #a6120d;
+	padding: .2em .6em .3em;
+	font-size: .9em;
+}
+
+.categorytButton a:hover {
+	background-color:#a6120d;
+	color: white;
 }

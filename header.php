@@ -29,7 +29,7 @@
                 <div class="col-lg-1 col-md-1 pull-right">
                     <div class="stickyLogo">
                         <a href="#">
-                            <img src="<?php bloginfo('template_url'); ?>//img/separse-logo.png" alt="لوگو" title="لوگو">
+                            <img src="<?php bloginfo('template_url'); ?>/img/separse-logo.png" alt="لوگو" title="لوگو">
                         </a>
                     </div>
                 </div>
