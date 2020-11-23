@@ -745,7 +745,7 @@ p, figure {
     8. Contactus
 ------------------------*/
 
-.contactMap, .contactInfo, .contactTitle, .contactContent  {
+.contactMap, .contactInfo, .contactTitle, .contactContent, .contactForm  {
 	width: 100%;
 	height: auto;
 	float: right;
@@ -784,3 +784,79 @@ p, figure {
 	font-size: 1.2em;
 }
 
+.contactForm input, .contactForm textarea {
+	border: solid 1px #e3e3e3;
+	border-radius: 5px;
+	transition: all .3s;
+}
+
+.contactForm input:focus, .contactForm textarea:focus {
+	border: solid 1px rgb(120, 120, 120);
+}
+
+.contactForm input[type=submit] {
+	background-color:#a6120d;
+	color: white;
+	padding: .2em .6em .3em;
+	font-size: .9em;
+	float: left;
+}
+
+.contactForm .gform_wrapper li.hidden_label input {
+	margin-top: 0 !important;
+}
+
+.contactForm .gform_wrapper ul.gform_fields li.gfield {
+	padding: 0 1em !important;
+	margin: .3em !important;
+}
+
+.contactForm .ginput_container_email, .contactForm .ginput_container_text, .contactForm .ginput_container_textarea {
+	margin: 0 !important;
+}
+
+.contactForm .gform_wrapper .gform_footer {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+/* پیام درست */
+.contactForm #gform_confirmation_message_1 {
+	color: #32CD32;
+	margin: 2.2em;
+  text-align: center;
+  padding: 1em;
+	font-size: 1.1em;
+	font-weight: 700;
+}
+/* پیام غلط */
+.contactForm .gform_wrapper div.validation_error {
+	color:	#FF0000 !important;
+	font-size: 1.1em !important;
+	font-weight: 700 !important;
+	text-align: center !important;
+	border: 0 solid #790000 !important;
+	float: right;
+}
+
+.contactForm .gform_wrapper .validation_message {
+	color: #FF0000 !important;
+}
+
+.contactForm .gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+	background-color: rgba(255,223,224,.25);
+	border-top: 1px solid #FF0000 !important;
+	border-bottom: 1px solid #FF0000 !important;
+
+}
+
+.contactForm 
+element.style {
+}
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required div.gfield_description {
+    max-width: 100%;
+    padding-right: 16px;
+}
+.gform_wrapper .field_description_below .gfield_description {
+    padding: 0 !important;
+}

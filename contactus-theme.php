@@ -43,10 +43,13 @@ Template Name: تماس با ما
         </div>
 
         <div class="contactContent">
+        
           <p>با تکمیل فرم زیر با ما در تماس باشید</p>
+
           <div class="contactForm">
             <?php echo do_shortcode('[widget id="gform_widget-2"]'); ?>
           </div>
+
         </div>
 
       </div>
